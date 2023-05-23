@@ -2,10 +2,10 @@
 //class Delegate {
 //    private var value:String = ""
 //    operator fun getValue(thisRef: Any?, property: KProperty<*>): String {
-//        return "delegating ${property.name} to $thisRef"
+//        return "delegating ${property.sub.getName} to $thisRef"
 //    }
 //    operator fun setValue(thisRef: Any?, property: KProperty<*>, newValue: String) {
-//        println("$newValue assigned to ‘${property.name}’ in $thisRef.")
+//        println("$newValue assigned to ‘${property.sub.getName}’ in $thisRef.")
 //        value = newValue
 //    }
 //}

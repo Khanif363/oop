@@ -1,12 +1,12 @@
 //Create Abstract Class
-//abstract class An(var name: String, var weight: Double, var age: Int, var isCarnivore: Boolean){
+//abstract class An(var sub.getName: String, var weight: Double, var age: Int, var isCarnivore: Boolean){
 //
 //    fun eat(){
-//        println("$name sedang makan !")
+//        println("$sub.getName sedang makan !")
 //    }
 //
 //    fun sleep(){
-//        println("$name sedang tidur !")
+//        println("$sub.getName sedang tidur !")
 //    }
 //}
 //
@@ -39,7 +39,7 @@ class Dog(name: String) : Anim() {
 
 fun main() {
     val hourse: Anim = Hourse("Poni")
-//    hourse.name // Output: Meow
+//    hourse.sub.getName // Output: Meow
     println(hourse.name)
 
     val dog: Anim = Dog("Bleky")
